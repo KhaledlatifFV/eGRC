@@ -31,3 +31,36 @@ C:\Users\Turki\Downloads\new dotnet project\obj\Debug\net7.0\new dotnet project.
 C:\Users\Turki\Downloads\new dotnet project\obj\Debug\net7.0\ref\new dotnet project.dll
 C:\Users\Turki\Downloads\new dotnet project\bin\Debug\net7.0\package-lock.json
 C:\Users\Turki\Downloads\new dotnet project\bin\Debug\net7.0\package.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\appsettings.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\package-lock.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\package.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.staticwebassets.runtime.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.exe
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.deps.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.runtimeconfig.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.dll
+C:\Users\moh30\Desktop\Dotnet\eGRC\bin\Debug\net7.0\new dotnet project.pdb
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.csproj.AssemblyReference.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.AssemblyInfoInputs.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.AssemblyInfo.cs
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.csproj.CoreCompileInputs.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.RazorAssemblyInfo.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.RazorAssemblyInfo.cs
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets\msbuild.new dotnet project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets\msbuild.build.new dotnet project.props
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.new dotnet project.props
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.new dotnet project.props
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\scopedcss\bundle\new dotnet project.styles.css
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\scopedcss\projectbundle\new dotnet project.bundle.scp.css
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.dll
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\refint\new dotnet project.dll
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.pdb
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\new dotnet project.genruntimeconfig.cache
+C:\Users\moh30\Desktop\Dotnet\eGRC\obj\Debug\net7.0\ref\new dotnet project.dll

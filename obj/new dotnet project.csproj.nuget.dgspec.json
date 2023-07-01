@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turki\\Downloads\\new dotnet project\\new dotnet project.csproj": {}
+    "C:\\Users\\moh30\\Desktop\\Dotnet\\eGRC\\new dotnet project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turki\\Downloads\\new dotnet project\\new dotnet project.csproj": {
+    "C:\\Users\\moh30\\Desktop\\Dotnet\\eGRC\\new dotnet project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turki\\Downloads\\new dotnet project\\new dotnet project.csproj",
+        "projectUniqueName": "C:\\Users\\moh30\\Desktop\\Dotnet\\eGRC\\new dotnet project.csproj",
         "projectName": "new dotnet project",
-        "projectPath": "C:\\Users\\Turki\\Downloads\\new dotnet project\\new dotnet project.csproj",
-        "packagesPath": "C:\\Users\\Turki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turki\\Downloads\\new dotnet project\\obj\\",
+        "projectPath": "C:\\Users\\moh30\\Desktop\\Dotnet\\eGRC\\new dotnet project.csproj",
+        "packagesPath": "C:\\Users\\moh30\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moh30\\Desktop\\Dotnet\\eGRC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Turki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\moh30\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
