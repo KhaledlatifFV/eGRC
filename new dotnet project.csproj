@@ -12,6 +12,7 @@
 </ItemGroup>
 
 <Target Name="Tailwind" BeforeTargets="Build">
+  <Exec Command="npm install "/>
   <Exec Command="npm run css:build"/>
 </Target>
 
