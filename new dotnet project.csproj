@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>new_dotnet_project</RootNamespace>
+    <RootNamespace></RootNamespace>
   </PropertyGroup>
   <ItemGroup>
   <UpToDateCheckBuilt Include="wwwroot/css/site.css" Set="Css" />
