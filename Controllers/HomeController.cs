@@ -1,32 +1,62 @@
-﻿using ISMS.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ViewEngines;
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
-namespace ISMS.Controllers
+namespace task1._3.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+
+        public IActionResult Dashboard()
         {
-            _logger = logger;
+            return View();
+
         }
 
-        public IActionResult Index()
+        public IActionResult CyberSecurityGoverence()
+        {
+            return View();
+
+        }
+
+        public IActionResult CybersecurityDefense()
+        {
+            return View();
+
+        }
+
+        public IActionResult CybersecurityResilience()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ThirdPartyCybersecurity()
+        {
+            return View();
+
+        }
+
+
+        public IActionResult CloudComputingCybersecurity()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        public IActionResult ICSCybersecurity()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
+
         }
+
+        public IActionResult Settings()
+        {
+            return View();
+
+        }
+
     }
+
 }
