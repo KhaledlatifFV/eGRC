@@ -101,7 +101,7 @@ namespace task1._3.Controllers
 
         public IActionResult Plan()
         {
-            ViewBag.ActivePage = "Plam";
+            ViewBag.ActivePage = "Plan";
             return View();
 
         }
