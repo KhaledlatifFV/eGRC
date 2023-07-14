@@ -67,6 +67,58 @@ namespace task1._3.Controllers
 
         }
 
+
     }
+
+    public class SettingsController : Controller
+    {
+
+        public IActionResult General()
+        {
+            ViewBag.ActivePage = "General";
+            return View();
+
+        }
+
+
+
+
+        public IActionResult Security()
+        {
+            ViewBag.ActivePage = "Security";
+            return View();
+
+        }
+
+
+        public IActionResult Account()
+        {
+            ViewBag.ActivePage = "Account";
+            return View();
+
+        }
+
+
+        public IActionResult Plan()
+        {
+            ViewBag.ActivePage = "Plam";
+            return View();
+
+        }
+
+
+
+        public IActionResult Team()
+        {
+            ViewBag.ActivePage = "Team";
+            return View();
+
+        }
+
+
+
+
+    }
+
 
 }
