@@ -33,7 +33,7 @@
                 <div class="flex grow flex-col gap-y-3 overflow-y-auto bg-cyan-950 ">
 
                     <div>
-                        <img class="h-24 w-auto " src="https://solutionsfv.com/Content/images/logo1.png" alt="Your Company">
+                        <img class="h-24 w-auto " src="~/Images/Solutionslogo.png" alt="Your Company">
                     </div>
 
                     <nav class="flex flex-1 flex-col px-6 pb-4">
@@ -43,60 +43,68 @@
                                     <li>
                                         <!-- Current: "bg-gray-800 text-white", Default: "text-gray-400 hover:text-white hover:bg-gray-800" -->
                                         <a href="@Url.Action("Dashboard","Home")" class=" @(ViewBag.ActivePage == "Dashboard" ? "bg-gray-500" : "") text-white  hover:bg-gray-500 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" fill="none" viewBox="0 0 20 20">
+                                            @* <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" fill="none" viewBox="0 0 20 20">
                                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.75 4H19M7.75 4a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 4h2.25m13.5 6H19m-2.25 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 10h11.25m-4.5 6H19M7.75 16a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 16h2.25" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/Dashboard.svg" alt="">
                                             Dashboard
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("CybersecurityGoverence","Home")" class="@(ViewBag.ActivePage == "CyberSecurityGoverence" ? "bg-gray-500" : "") text-white hover:bg-gray-500  group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"  fill="none" viewBox="0 0 16 20">
+                                            @* <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"  fill="none" viewBox="0 0 16 20">
                                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 17V2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M5 15V1m8 18v-4" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/CybersecurityGovernance.svg" alt="">
                                             Cybersecurity Governance
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("CybersecurityDefense","Home")" class="@(ViewBag.ActivePage == "CybersecurityDefense" ? "bg-gray-500" : "") text-white hover:bg-gray-500  group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                            @* <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/CybersecurityDefense.svg" alt="">
                                             Cybersecurity Defense
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("cybersecurityResilience","Home")" class="@(ViewBag.ActivePage == "CybersecurityResilience" ? "bg-gray-500" : "") text-white hover:bg-gray-500 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
+                                            @* <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
                                                 <path d="M16 1h-3.278A1.992 1.992 0 0 0 11 0H7a1.993 1.993 0 0 0-1.722 1H2a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2ZM7 2h4v3H7V2Zm5.7 8.289-3.975 3.857a1 1 0 0 1-1.393 0L5.3 12.182a1.002 1.002 0 1 1 1.4-1.436l1.328 1.289 3.28-3.181a1 1 0 1 1 1.392 1.435Z" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/CybersecurityResilience.svg" alt="">
                                             Cybersecurity Resilience
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("ThirdPartyCybersecurity","Home")" class="@(ViewBag.ActivePage == "ThirdPartyCybersecurity" ? "bg-gray-500" : "") text-white hover:bg-gray-500 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+                                            @* <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
                                                 <path d="M14 19v-5h2v6.988H0V14h1.98v5H14Z" />
                                                 <path d="m3.84 13.522 8.73 1.825.369-1.755-8.73-1.825-.369 1.755ZM4.995 9.2l8.083 3.763.739-1.617L5.734 7.56 4.995 9.2Zm3.372-5.482L7.235 5.08l6.859 5.704 1.132-1.362-6.859-5.704ZM12.57 16H3.655v2h8.915v-2ZM9.861 2.111l6.193 6.415 1.414-1.415-6.43-6.177-1.177 1.177Z" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/Third-PartyCybersecurity.svg" alt="">
 
                                             Third-Party Cybersecurity
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("CloudComputingCybersecurity","Home")" class="@(ViewBag.ActivePage == "CloudComputingCybersecurity" ? "bg-gray-500" : "") text-white hover:bg-gray-500  group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                            @* <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/CloudComputingCybersecurity.svg" alt="">
+
                                             Cloud Computing Cybersecurity
                                         </a>
                                     </li>
                                     <li>
                                         <a href="@Url.Action("ICSCybersecurity","Home")" class="@(ViewBag.ActivePage == "ICSCybersecurity" ? "bg-gray-500" : "") text-white hover:bg-gray-500 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold">
-                                            <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                            @* <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-                                            </svg>
+                                            </svg> *@
+                                            <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/IndustrialControlSystems.svg" alt="">
                                             Industrial Control Systems (ICS) Cybersecurity
                                         </a>
                                     </li>
@@ -107,10 +115,11 @@
 
                             <li class="mt-auto">
                                 <a href="@Url.Action("Team","Home")" class="@(ViewBag.ActivePage == "Team" ? "bg-gray-500" : "") text-white hover:bg-gray-500 group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold leading-6 ">
-                                    <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    @* <svg class="h-6 w-6 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-                                    </svg>
+                                    </svg> *@
+                                    <img class="w-6 h-6 text-gray-800 dark:text-white" src="~/Images/team.svg" alt="">
                                     Team
                                 </a>
                             </li>
