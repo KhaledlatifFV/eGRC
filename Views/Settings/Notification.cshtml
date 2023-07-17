@@ -1,40 +1,29 @@
-﻿<div class="ml-96 lg:mt-28 lg:mb-10">
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="ml-96 lg:mt-28 lg:mb-10">
     <div class="lg:ml-56 max-w-6xl">
 
-        <h2 class="text-lg font-semibold leading-7 text-gray-900">Security and Privacy</h2>
+        <h2 class="text-lg font-semibold leading-7 text-gray-900">Get Email when</h2>
 
         <dl class="mt-6 space-y-6 divide-y divide-gray-100 border-t border-gray-200 text-sm leading-6">
 
 
-            <div class="pt-6 sm:flex">
-                <dt class="font-medium text-gray-900 sm:w-64 sm:flex-none sm:pr-6">Change the password</dt>
-                <dd class="mt-1 flex justify-between gap-x-6 sm:mt-0 sm:flex-auto">
-                    <div class="text-gray-900"></div>
-                    <button type="button" class="font-semibold rounded-full border-opacity-50  p-2 text-white bg-cyan-950 shadow-sm  hover:bg-gray-600  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500">
-                        <svg class="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.109 17H1v-2a4 4 0 0 1 4-4h.87M10 4.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm7.95 2.55a2 2 0 0 1 0 2.829l-6.364 6.364-3.536.707.707-3.536 6.364-6.364a2 2 0 0 1 2.829 0Z" />
-                        </svg>
+            <div class="flex pt-6">
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900">someone comment on any item</dt>
+                <dd class="flex flex-auto items-center justify-end">
+                    <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+                    <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
+                        <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+                        <span aria-hidden="true" class="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
                     </button>
                 </dd>
             </div>
-
-
-
-            <div class="pt-6 sm:flex">
-                <dt class="font-medium text-gray-900 sm:w-64 sm:flex-none sm:pr-6">Tow-factor Authentication</dt>
-                <dd class="mt-1 flex justify-between gap-x-6 sm:mt-0 sm:flex-auto">
-                    <div class="text-gray-900"></div>
-                    <button type="button" class="font-semibold rounded-full border-opacity-50  p-2 text-white bg-cyan-950 shadow-sm  hover:bg-gray-600  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500">
-                        <svg class="w-4 h-4 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.109 17H1v-2a4 4 0 0 1 4-4h.87M10 4.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm7.95 2.55a2 2 0 0 1 0 2.829l-6.364 6.364-3.536.707.707-3.536 6.364-6.364a2 2 0 0 1 2.829 0Z" />
-                        </svg>
-                    </button>
-                </dd>
-            </div>
-
 
             <div class="flex pt-6">
-                <dt class="w-64 flex-none pr-6 font-medium text-gray-900" id="timezone-option-label">Text-Message</dt>
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900"">progress on any domain</dt>
                 <dd class="flex flex-auto items-center justify-end">
                     <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
                     <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
@@ -46,7 +35,18 @@
 
 
             <div class="flex pt-6">
-                <dt class="w-64 flex-none pr-6 font-medium text-gray-900" id="timezone-option-label">Call registered phone</dt>
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900" >someone ask for access to priviliged items</dt>
+                <dd class="flex flex-auto items-center justify-end">
+                    <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+                    <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
+                        <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+                        <span aria-hidden="true" class="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+                    </button>
+                </dd>
+            </div>
+
+            <div class="flex pt-6">
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900">any change in team accounts settings</dt>
                 <dd class="flex flex-auto items-center justify-end">
                     <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
                     <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
@@ -58,7 +58,7 @@
 
 
             <div class="flex pt-6">
-                <dt class="w-64 flex-none pr-6 font-medium text-gray-900" id="timezone-option-label">Authentication app</dt>
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900">signing in to the account</dt>
                 <dd class="flex flex-auto items-center justify-end">
                     <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
                     <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
@@ -67,9 +67,10 @@
                     </button>
                 </dd>
             </div>
+
 
             <div class="flex pt-6">
-                <dt class="w-64 flex-none pr-6 font-medium text-gray-900" id="timezone-option-label">Security Key</dt>
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900">being inactive for period of time</dt>
                 <dd class="flex flex-auto items-center justify-end">
                     <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
                     <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
@@ -79,8 +80,21 @@
                 </dd>
             </div>
 
+
+
+
+            <div class="flex pt-6">
+                <dt class="w-64 flex-none pr-6 font-medium text-gray-900">any change in account settings</dt>
+                <dd class="flex flex-auto items-center justify-end">
+                    <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
+                    <button type="button" class="bg-gray-200 flex w-8 cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="true" aria-labelledby="timezone-option-label">
+                        <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
+                        <span aria-hidden="true" class="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
+                    </button>
+                </dd>
+            </div>
 
         </dl>
     </div>
-   
+
 </div>

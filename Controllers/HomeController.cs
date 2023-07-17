@@ -60,6 +60,13 @@ namespace task1._3.Controllers
 
         }
 
+        public IActionResult Team()
+        {
+            ViewBag.ActivePage = "Team";
+            return View();
+
+        }
+
         public IActionResult Settings()
         {
             ViewBag.ActivePage = "Settings";
@@ -108,9 +115,9 @@ namespace task1._3.Controllers
 
 
 
-        public IActionResult Team()
+        public IActionResult Notification()
         {
-            ViewBag.ActivePage = "Team";
+            ViewBag.ActivePage = "Notification";
             return View();
 
         }
