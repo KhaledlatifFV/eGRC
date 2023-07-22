@@ -5,7 +5,11 @@ module.exports = {
     './Views/**/*.cshtml'
   ],
   theme: {
-    extend: {},
+      extend: {
+          flexGrow: {
+              2: '2'
+          }
+      },
   },
   plugins: [],
 }
